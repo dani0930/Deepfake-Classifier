@@ -1,0 +1,2 @@
+Dataset/test/fake/* filter=lfs diff=lfs merge=lfs -text
+Dataset/test/Real/* filter=lfs diff=lfs merge=lfs -text
