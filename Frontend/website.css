@@ -1,0 +1,132 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121d3f;
+    margin: 0;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: #1a2751;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: -0.5px;
+}
+
+.upload-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px dashed #4370e3;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.upload-area:hover {
+    background-color: rgba(67, 112, 227, 0.1);
+}
+
+.upload-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #4370e3;
+}
+
+.upload-text {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-name {
+    color: #a2a8d3;
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #4370e3;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #3a62cc;
+    transform: scale(1.02);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#result {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    min-height: 30px;
+    transition: all 0.3s ease;
+}
+
+.result-container {
+    margin-top: 30px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.result-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.prediction-name {
+    font-weight: 500;
+}
+
+.prediction-confidence {
+    color: #4370e3;
+    font-weight: 600;
+}
