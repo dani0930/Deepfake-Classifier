@@ -1,4 +1,4 @@
-## AI Image Classifier
+# VisageAI
 
 ## Inspiration:
 
