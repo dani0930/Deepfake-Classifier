@@ -19,9 +19,9 @@ In the image above we demostrate our website in use, a AI generated portrait is 
 This application features a Flask backend integrated with TensorFlow for processing, paired with an interactive frontend for a seamless user experience.
 
 - **Backend**: Built with Python and Flask
-- **Classification Model**: Developed using TensorFlow (Keras)
+- **Classification Model**: Developed CNN model with MobileNet architecture using TensorFlow (Keras)
 - **Frontend**: Designed with HTML5, CSS3, and JavaScript
-- **Design**: Custom CSS with responsive design principles
+
 
 ## Challenges we ran into:
 
