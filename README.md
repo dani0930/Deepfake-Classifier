@@ -20,7 +20,7 @@ Design: Custom CSS with responsive design patterns
 
 ## Challenges we ran into:
 
-JIWON ADD CHALLENGES
+Some challenges we faced were trainging the model, uploading our project to the cloud and integrating a interactive UI for our website. 
 
 ## Accomplishments that we're proud of:
 
